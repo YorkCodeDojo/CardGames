@@ -21,6 +21,16 @@ namespace HigherLower
         private void DisplayScore()
         {
             this.Text = $"Pairs -  Player1: {_player1Score}      Player2:  {_player2Score}";
+
+            if (_player1Score + _player2Score == 26)
+            {
+                if (_player1Score > _player2Score)
+                    MessageBox.Show("Player 1 has won!");
+                else if(_player1Score < _player2Score)
+                    MessageBox.Show("Player 2 has won!");
+                else
+                    MessageBox.Show("It's a draw");
+            }
         }
         public Form1()
         {
@@ -179,13 +189,12 @@ namespace HigherLower
             {
                 _firstCard.Load("cards/back.png");
                 _secondCard.Load("cards/back.png");
+
+                _player1sTurn = !_player1sTurn;
+
+                DisplayPlayer();
             }
-
-
             _cardsOnDisplay = 0;
-            _player1sTurn = !_player1sTurn;
-
-            DisplayPlayer();
         }
 
         private void DisplayPlayer()

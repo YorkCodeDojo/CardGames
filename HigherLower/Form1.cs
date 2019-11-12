@@ -110,18 +110,18 @@ namespace HigherLower
 
             DisplayCards();
 
-            if (_currentCardIndex >= 4)
-            {
-                MessageBox.Show("You won - well done");
-                return;
-            }
-
             var previousCard = _pack.GetCard(_currentCardIndex - 1);
             var newCard = _pack.GetCard(_currentCardIndex);
 
             if (!guess(newCard, previousCard))
             {
                 PlayAgain();
+            }
+
+            if (_currentCardIndex >= 4)
+            {
+                MessageBox.Show("You won - well done");
+                return;
             }
         }
     }
