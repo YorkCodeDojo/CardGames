@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HigherLower", "HigherLower\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pairs", "Pairs\Pairs.csproj", "{666D2FC0-4D8F-4572-B089-CF97673F2555}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snap", "Snap\Snap.csproj", "{CE17F890-F3C7-4FD8-892F-75AE77FF5C7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{666D2FC0-4D8F-4572-B089-CF97673F2555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{666D2FC0-4D8F-4572-B089-CF97673F2555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{666D2FC0-4D8F-4572-B089-CF97673F2555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE17F890-F3C7-4FD8-892F-75AE77FF5C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE17F890-F3C7-4FD8-892F-75AE77FF5C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE17F890-F3C7-4FD8-892F-75AE77FF5C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE17F890-F3C7-4FD8-892F-75AE77FF5C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

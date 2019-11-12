@@ -7,6 +7,9 @@ namespace HigherLower
 {
     public partial class Form1 : Form
     {
+        private const int WM_SYSCOMMAND = 0x112;
+        private const int WM_CLOSE = 0x0010;
+
         private Pack _pack;
         private int _seed;
         private PictureBox[,] _cards = new PictureBox[13, 4];
@@ -26,7 +29,7 @@ namespace HigherLower
             {
                 if (_player1Score > _player2Score)
                     MessageBox.Show("Player 1 has won!");
-                else if(_player1Score < _player2Score)
+                else if (_player1Score < _player2Score)
                     MessageBox.Show("Player 2 has won!");
                 else
                     MessageBox.Show("It's a draw");
