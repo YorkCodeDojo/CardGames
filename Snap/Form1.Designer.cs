@@ -166,9 +166,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(95, 677);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(218, 25);
+            this.label5.Size = new System.Drawing.Size(171, 25);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Press X for next snap";
+            this.label5.Text = "Press X for snap";
             // 
             // label6
             // 
@@ -176,9 +176,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(754, 677);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(216, 25);
+            this.label6.Size = new System.Drawing.Size(169, 25);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Press > for next snap";
+            this.label6.Text = "Press > for snap";
             // 
             // Form1
             // 
